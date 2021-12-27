@@ -8,107 +8,113 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <a href="#about"><li>about</li></a>
-        <a href="#projects"><li>projects</li> </a>
-        <a href="#footer"><li>contact</li></a>
-      </ul>
-    </header>
-    <main>
-      <!-- the about section -->
-      <section id="about">
-        <div>
-          <h2>About me</h2>
-          <p>
-            i am 25 and i'm full stack developer (mern) leading both front-end
-            and back-end development
-          </p>
-          <p>
-            Young WEB developer, passionate about new technologies with a
-            logical mind and excellent skills, able to work in a team and learn
-            quickly, and efficiently
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor porro
-            dolores soluta nemo magnam natus debitis voluptate asperiores! Iste
-            doloremque, ex nulla cupiditate numquam dignissimos incidunt tempora
-            perspiciatis maiores eius!
-          </p>
+    <div class="container">
+      <header>
+        <ul>
+          <img alt="img" src="img/uranus.png" />
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#footer">contact</a></li>
+        </ul>
+      </header>
+      <main>
+        <!-- the about section -->
+        <section class="about">
+          <div class="d">
+            <h3>About me</h3>
+            <p>
+              i am 25 and i'm full stack developer (mern) leading both front-end
+              and back-end development
+            </p>
+            <p>
+              Young WEB developer, passionate about new technologies with a
+              logical mind and excellent skills, able to work in a team and
+              learn quickly, and efficiently
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              porro dolores soluta nemo magnam natus debitis voluptate
+              asperiores! Iste doloremque, ex nulla cupiditate numquam
+              dignissimos incidunt tempora perspiciatis maiores eius!
+            </p>
+          </div>
+
+          <img alt="my photo" src="./img/me.PNG" />
+        </section>
+        <!-- projects section -->
+        <section id="projects">
+          <div class="v">
+            <video width="300" height="300" autoplay muted>
+              <source src="./video/HTML.mp4" type="video/mp4" />
+              <source src="movie.ogg" type="video/ogg" />
+              Your browser does not support the video tag.
+            </video>
+            <h3>What's html</h3>
+            <p>
+              Hypertext Markup Language, a standardized system for tagging text
+              files to achieve font, colour, graphic, and hyperlink effects on
+              World Wide Web pages.
+            </p>
+          </div>
+          <div class="v">
+            <iframe
+              width="300"
+              height="300"
+              src="https://www.youtube.com/embed/qTN9bNaBCK8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <h3>what's css</h3>
+            <p>
+              CSS is the acronym of “Cascading Style Sheets”. CSS is a computer
+              language for laying out and structuring web pages (HTML or XML).
+              This language contains coding elements and is composed of these
+              “cascading style sheets” which are equally called CSS files
+            </p>
+          </div>
+          <div class="v">
+            <iframe
+              width="300"
+              height="300"
+              src="https://www.youtube.com/embed/5GcQtLDGXy8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <h3>what's bootstrap</h3>
+            <p>
+              Bootstrap is the most popular CSS Framework for developing
+              responsive and mobile-first websites. Bootstrap 5 is the newest
+              version of Bootstrap
+            </p>
+          </div>
+        </section>
+      </main>
+      <!-- contact section -->
+      <footer id="footer">
+        <div class="fo">
+          <form class="frm">
+            <label for="firstname">firstname : </label>
+            <input type="text" id="firstname" name="firstname" /><br /><br />
+            <label for="lastname">lastname :</label>
+            <input type="text" id="lastname" name="lastname" />
+          </form>
         </div>
-        <img alt="my photo" src="./img/me.PNG" />
-      </section>
-      <!-- projects section -->
-      <section id="projects">
-        <div>
-          <video width="320" height="240" autoplay muted>
-            <source src="./video/HTML.mp4" type="video/mp4" />
-            <source src="movie.ogg" type="video/ogg" />
-            Your browser does not support the video tag.
-          </video>
-          <h3>What's html</h3>
-          <p>
-            Hypertext Markup Language, a standardized system for tagging text
-            files to achieve font, colour, graphic, and hyperlink effects on
-            World Wide Web pages.
-          </p>
+        <div id="contact">
+          <a href="https://www.instagram.com/?hl=fr"
+            ><img alt="logo instagram" src="./img/insta.jpg" class="icons"
+          /></a>
+          <a href="https://fr.linkedin.com/"
+            ><img alt="logo linkedin" src="./img/lnkdin.png" class="icons"
+          /></a>
+          <a href="https://www.facebook.com/"
+            ><img alt="logo facebook" src="./img/facebook.jpg" class="icons"
+          /></a>
         </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/qTN9bNaBCK8"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <h3>what's css</h3>
-          <p>
-            CSS is the acronym of “Cascading Style Sheets”. CSS is a computer
-            language for laying out and structuring web pages (HTML or XML).
-            This language contains coding elements and is composed of these
-            “cascading style sheets” which are equally called CSS files
-          </p>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/5GcQtLDGXy8"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <h3>what's bootstrap</h3>
-          <p>
-            Bootstrap is the most popular CSS Framework for developing
-            responsive and mobile-first websites. Bootstrap 5 is the newest
-            version of Bootstrap
-          </p>
-        </div>
-      </section>
-    </main>
-    <!-- contact section -->
-    <footer id="footer">
-      <form>
-        <label for="firstname">firstname : </label>
-        <input type="text" id="firstname" name="firstname" /><br /><br />
-        <label for="lastname">lastname :</label>
-        <input type="text" id="lastname" name="lastname" />
-      </form>
-      <div id="contact">
-        <a href="https://www.instagram.com/?hl=fr"
-          ><img alt="logo instagram" src="./img/insta.jpg"
-        /></a>
-        <a href="https://fr.linkedin.com/"
-          ><img alt="logo linkedin" src="./img/lnkdin.png"
-        /></a>
-        <a href="https://www.facebook.com/"
-          ><img alt="logo facebook" src="./img/facebook.jpg"
-        /></a>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
